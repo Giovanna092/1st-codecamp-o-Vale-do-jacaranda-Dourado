@@ -1,0 +1,63 @@
+//Desafios JavaScript na DIO têm funções "gets" e "print" acessíveis globalmente:
+//- "gets" : lê UMA linha com dado(s) de entrada (inputs) do usuário;
+//- "print": imprime um texto de saída (output), pulando linha.
+
+let arr = gets().split(', ')
+
+const list = {
+    Reflorestamento: gets(),
+    EsgotoTratado: gets(),
+    EmissaoDeCarbono: gets(),
+    EnergiaSustentavel: gets(),
+}
+
+//TODO: Print no console "Multa", "Avaliação de progresso" ou "Não multar" dependendo do valor 
+//de cada uma das chaves a serem verificadas da lista arr
+
+let avaliacao;
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i].includes("Reflorestamento")) {
+        if(list.Reflorestamento == "Feito") {
+            avaliacao = "Não multar";
+        } else if(list.Reflorestamento == "Em progresso"){
+            avaliacao = "Avaliação de progresso";
+        } else if(list.Reflorestamento == "Não feito") {
+            avaliacao = "Multa";
+        }
+        console.log(avaliacao)
+    }
+    
+    if (arr[i].includes("EsgotoTratado")) {
+        if(list.EsgotoTratado == "Feito") {
+            avaliacao = "Não multar";
+        } else if(list.EsgotoTratado == "Em progresso"){
+            avaliacao = "Avaliação de progresso";
+        } else if(list.EsgotoTratado == "Não feito") {
+            avaliacao = "Multa";
+        }
+        console.log(avaliacao)
+    }
+    
+    if (arr[i].includes("EmissaoDeCarbono")) {
+        if(list.EmissaoDeCarbono == "Feito") {
+            avaliacao = "Não multar";
+        } else if(list.EmissaoDeCarbono == "Em progresso"){
+            avaliacao = "Avaliação de progresso";
+        } else if(list.EmissaoDeCarbono == "Não feito") {
+            avaliacao = "Multa";
+        }
+        console.log(avaliacao)
+    }
+    
+    if (arr[i].includes("EnergiaSustentavel")) {
+        if(list.EnergiaSustentavel == "Feito") {
+            avaliacao = "Não multar";
+        } else if(list.EnergiaSustentavel == "Em progresso"){
+            avaliacao = "Avaliação de progresso";
+        } else if(list.EnergiaSustentavel == "Não feito") {
+            avaliacao = "Multa";
+        }
+        console.log(avaliacao)
+    }
+    
+}
