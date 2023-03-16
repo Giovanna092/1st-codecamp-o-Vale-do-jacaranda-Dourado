@@ -46,3 +46,19 @@ As atividades que demandam tratamento e atenção são: Reflorestamento, Esgoto 
 
 
 # Reciclando a Oil Corp
+## Parceria de Milhões, Para a Natureza
+Após vocês promoverem diversas atividades a favor da natureza, a liderança e a diretoria da Oil Corp convidaram vocês para os ajudarem a preservar a natureza e a serem uma empresa sustentável. Para isso, eles precisam de ajuda para criar o algoritmo que direciona os resíduos da água para a estação de tratamento correta antes de ser descartada no rio Jacará-Mirim.
+
+Via de regra, as moléculas que possuem até 5 caracteres passam pelo Filtro Normal, as que possuem até 10 caracteres passam pelo Filtro Específico e as que possuem mais que 10 caracteres passam pelo Filtro Duplo Especifico. Essas moléculas estão misturadas nos resíduos, se houver ao menos uma que tenha o número específico de caracteres esse resíduo já deve passar pelo filtro correto.
+
+- o que foi feito: código que verifica o tamanho de cada conteudo na array e retorna o seu determinado filtro
+
+## Isso Não Está Cheirando Bem... Bora Filtrar!
+A Oil Corp abriu o jogo e entregou para vocês uma lista contendo vários gases que eles liberam durante a extração de óleo. Alguns desses gases são extremamente prejudiciais para a camada de ozônio e para a natureza local como: NO2, SO2, CO e FHO.
+
+- o que foi feito: código que verifica se uma das moléculas listadas estão inclusas em uma das listas, em caso afirmativo ele imprime qual filtro será necessário para a molécula contida, em caso negativo ele imprime que o filtro deverá ser simples
+
+## Network É Tudo!
+Vocês decidem que vão enviar projetos e ideias para a Oil Corp seguir sendo mais sustentável. Uma pessoa do seu grupo diz que vocês receberam um JSON com diversos funcionários da Oil Corp, e seus emails, e que vocês deveriam tentar enviar as ideias para esses endereços. Porém, vocês devem poupar esforços e enviar esses emails somente para cargos de liderança e diretoria.
+
+- o que foi feito: código que, analisa um JSON procurando por cargos e emails válidos, e imprime no console o nome, o cargo e seu email válido
